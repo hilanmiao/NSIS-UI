@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+   <!-- 安装目录 -->
+   <VerticalLayout>
+   	<VerticalLayout width="570" height="247" bkimage="file='uninstall_bg1.png'">
+	<VerticalLayout bkimage="file='bgtop.png'"></VerticalLayout>
+	</VerticalLayout>
+	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >
+	
+	<Button name="btnInstall" padding="165,35,0,0" font="2" normalimage="file='install.png' source='0,0,240,38'" hotimage="file='install.png' source='0,38,240,76'" pushedimage="file='install.png' source='0,76,240,114'" height="38" width="240" />
+	
+	<VerticalLayout name="moreconfiginfo" visible="false" padding="100,34,0,0" width="380" height="70">
+	  <HorizontalLayout height="26" >
+      <RichEdit name="editDir" text="" textcolor="0xFF000000" inset="5,7,2,2" bkcolor="#ffffffff" autohscroll="false" bordervisible="true"  bordersize="1" bordercolor="0xFFD1D1D1" focusbordercolor="0xFFD1D1D1" wantreturn="false" wantctrlreturn="false" multiline="false" width="300" />
+      <Control width="6" />
+      <Button name="btnSelectDir" normalimage="file='modify.png' source='0,0,68,26'" pushedimage="file='modify.png' source='0,26,68,52'" hotimage="file='modify.png' source='0,52,68,78'" width="68" height="26" />      
+      </HorizontalLayout>
+	  <Control height="10"/>
+	 <HorizontalLayout height="23" >
+      <CheckBox name="chkShotcut" width="95"  text="生成快捷方式" textcolor="#FF000000" selected="false" valign="center" align="left" textpadding="18,2,0,0" normalimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" normalhotimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" selectedimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'" selectedhotimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'"/>
+      <Control width="30"/>
+	  <CheckBox name="chkQuickStart" width="125"  text="添加到快速启动栏" textcolor="#FF000000" selected="true" valign="center" align="left" textpadding="18,2,0,0" normalimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" normalhotimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" selectedimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'" selectedhotimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'"/>
+	  <Control width="30"/>
+	  <CheckBox name="chkAutoRun" width="100"  text="开机自动启动" textcolor="#FF000000" selected="true" valign="center" align="left" textpadding="18,2,0,0" normalimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" normalhotimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" selectedimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'" selectedhotimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'"/>
+     </HorizontalLayout>
+	 </VerticalLayout>
+	 <Control />
+	 
+	<HorizontalLayout height="23" >
+      <Control width="15" />
+      <CheckBox name="chkAgree" width="115"  text="我已经阅读并同意" textcolor="#FF000000" selected="true" valign="center" align="left" textpadding="18,2,0,0" normalimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" normalhotimage="file='checkbox.png' source='0,0,13,13' dest='0,6,13,19'" selectedimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'" selectedhotimage="file='checkbox.png' source='0,26,13,39' dest='0,6,13,19'"/>
+      <Button name="btnAgreement" width="140"  text="《牛牛截图示例协议》" textpadding="0,3,0,0" textcolor="0xFF2786e4" align="left" />
+	  <Control />
+	  <Button name="btnShowMore"  normalimage="file='arrow_down.png' source='0,0,15,15' dest='0,5,15,20'" hotimage="file='arrow_down.png' source='0,15,15,30' dest='0,5,15,20'" pushedimage="file='arrow_down.png' source='0,30,15,45' dest='0,5,15,20'" width="90" text="自定义选项" textpadding="20,1,0,0" textcolor="0xFF2786e4" align="left"/>
+	  <Button name="btnHideMore" visible="false" normalimage="file='arrow_up.png' source='0,0,15,15' dest='0,5,15,20'" hotimage="file='arrow_up.png' source='0,15,15,30' dest='0,5,15,20'" pushedimage="file='arrow_up.png' source='0,30,15,45' dest='0,5,15,20'" width="90" text="自定义选项" textpadding="20,1,0,0" textcolor="0xFF2786e4" align="left" />
+      <Control width="15" />
+     </HorizontalLayout>	 
+    <Control height="10" />
+	</VerticalLayout>
+	<Include source="licensepage.xml" />
+   
+   </VerticalLayout>
+</Windows>

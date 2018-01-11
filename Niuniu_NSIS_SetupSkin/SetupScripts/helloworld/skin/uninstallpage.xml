@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+   <VerticalLayout >
+    <VerticalLayout width="480" height="250" roundcorner="5,5" bkimage="file='form\pic.png'">
+	
+	</VerticalLayout>
+	<VerticalLayout bkcolor="#FFFFFFFF" >   
+	
+	<Label font="8" width="200" height="25" padding="30,30,0,0" textcolor="#ff333333" text="确定要卸载HelloWorld？" /> 
+	<HorizontalLayout padding="30,45,0,0" height="30" >
+	  <Control />     
+	  <Button name="btnUnInstall" font="6" text="确 定"  textcolor="#FF666666" normalimage="file='public/button/btn_global_white_80x30_normal.png' " hotimage="file='public/button/btn_global_white_80x30_hovered.png'" pushedimage="file='public/button/btn_global_white_80x30_pushed.png'" width="80" height="30"/>
+	  <Control width="10" />
+	  <Button name="btnClose" font="6" text="取 消"  textcolor="#FFFFFFFF" normalimage="file='public/button/btn_global_green_80x30_normal.png' " hotimage="file='public/button/btn_global_green_80x30_hovered.png'" pushedimage="file='public/button/btn_global_green_80x30_pushed.png'" width="80" height="30"/>
+      <Control width="20" />
+     </HorizontalLayout>
+	 <Control height="10" />
+	</VerticalLayout>
+ </VerticalLayout>
+</Windows>

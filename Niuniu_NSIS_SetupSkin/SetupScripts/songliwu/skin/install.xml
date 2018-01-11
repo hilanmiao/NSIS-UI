@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window size="570,410" sizebox="0,0,0,0" caption="0,0,0,810" bktrans="true">
+  <Font id="0" name="微软雅黑" size="12" bold="false" default="true"/>
+  <Font id="1" name="微软雅黑" size="12" bold="true" />
+  <Font id="2" name="微软雅黑" size="24" bold="false" />
+  <Font id="3" name="微软雅黑" size="16" bold="false" />
+  <Font id="4" name="宋体" size="32" bold="false" />
+  <Font id="5" name="微软雅黑" size="14" bold="false" />
+  
+<Include source="default.xml" />
+  <VerticalLayout>  	
+	  <TabLayout name="wizardTab"  >
+	  	<Include source="configpage.xml" />
+	    <Include source="installingpage.xml" />		
+	  	<Include source="finishpage.xml" />
+	  	<Include source="uninstallpage.xml" />
+		<Include source="uninstallingpage.xml" />		
+	  	<Include source="uninstallfinishpage.xml" />
+    </TabLayout>
+	<HorizontalLayout float="true" pos="0,8,562,34" >
+      	<Container />
+        <Button name="btnFinishedMin" width="32" height="26" normalimage="file='min1.png' source='0,0,32,26'" hotimage="file='min1.png' source='0,26,32,52'" pushedimage="file='min1.png' source='0,52,32,78'" />
+        <Button name="btnClose" width="29" height="26" normalimage="file='close1.png' source='0,0,29,26'" hotimage="file='close1.png' source='0,26,29,52'" pushedimage="file='close1.png' source='0,52,29,78'" />
+     </HorizontalLayout> 
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+    <VerticalLayout width="570" height="345">
+	<ImageShow images="bg1.png bg2.png" imagecount="2" loop="true" width="570" height="345" /> 
+	</VerticalLayout>
+	<VerticalLayout bkimage="file='bgbottom.png' corner='10,0,10,10'" >   
+	<Control height="30" />
+	<Slider name="slrProgress" padding="25,0,0,0" height="3" width="520" mouse="false" foreimage="process_top.png" bkimage="process_bottom.png" thumbsize="0,0" bkcolor="#FFD8D8D8"  />
+	</VerticalLayout>	
+	</VerticalLayout >
+</Windows>

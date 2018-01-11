@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Windows>
+<!-- 进度 -->
+  <VerticalLayout >
+    <VerticalLayout width="570" height="332" bkimage="file='uninstall_bg2.png'">
+	<Control height="290" />
+	<Slider name="slrUnInstProgress" padding="45,0,0,0" height="3" width="480" mouse="false" foreimage="uninst_process_top.png" bkimage="uninst_process_bottom.png" thumbsize="0,0" bkcolor="#FFDB4C4C"  />
+	</VerticalLayout>
+	</VerticalLayout>	
+</Windows>
