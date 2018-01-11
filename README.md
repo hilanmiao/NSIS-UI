@@ -1,4 +1,4 @@
-文件太大放到百度网盘上了
+文件太大，国内的用户可以到百度网盘上下载
 链接: https://pan.baidu.com/s/1smlN6Zr 密码: vzub
 
 # NSIS-UI
