@@ -1,5 +1,4 @@
-文件太大，国内的用户可以到百度网盘上下载
-链接: https://pan.baidu.com/s/1smlN6Zr 密码: vzub
+> 2021-02-06:直接去作者官网下载吧，提供有偿服务了，还有更多精美模版。http://ggniu.cn/articles/nsniuniuskin.html
 
 # NSIS-UI
 NSIS封包exe，牛牛安装包界面美化控件 [nsNiuniuSkin]，包含3个实例，后两个是官网的，helloworld那个是根据上面两个例子改的。
